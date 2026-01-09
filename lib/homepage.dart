@@ -44,7 +44,7 @@ class _HomepageState extends State<Homepage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Center(child: Text("Notes")),
+        title: Center(child: Text("Note")),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => openNotebox,
